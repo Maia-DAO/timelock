@@ -17,13 +17,13 @@ Remember to replace 'Maia-DAO/foundry-template' with your repository's path and 
 -->
 
 [![Version][version-badge]][version-link]
-<!-- [![Test CI][ci-badge]][ci-link] -->
 [![Lint][lint-badge]][lint-link]
-<!-- [![Code Coverage][coverage-badge]][coverage-link] -->
 [![Solidity][solidity-shield]][ci-link]
 [![License][license-badge]][license-link]
 [![Docs][docs-badge]][docs-link]
 [![Discord][discord-badge]][discord-link]
+<!-- [![Test CI][ci-badge]][ci-link] -->
+<!-- [![Code Coverage][coverage-badge]][coverage-link] -->
 <!-- [![Discussions][discussions-badge]][discussions-link] -->
 <!-- [![JS Library][js-library-badge]][js-library-link] -->
 
