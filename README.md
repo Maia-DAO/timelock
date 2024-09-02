@@ -1,4 +1,4 @@
-# Foundry Template
+# Timelock Contract
 
 <!--
 Badges provide a quick visual way to convey various information about your project. Below are several common types of badges. Feel free to uncomment, remove, or add new badges as needed for your project. Make sure to update the links so they point to the correct sources relevant to your project.
@@ -17,9 +17,9 @@ Remember to replace 'Maia-DAO/foundry-template' with your repository's path and 
 -->
 
 [![Version][version-badge]][version-link]
-[![Test CI][ci-badge]][ci-link]
+<!-- [![Test CI][ci-badge]][ci-link] -->
 [![Lint][lint-badge]][lint-link]
-[![Code Coverage][coverage-badge]][coverage-link]
+<!-- [![Code Coverage][coverage-badge]][coverage-link] -->
 [![Solidity][solidity-shield]][ci-link]
 [![License][license-badge]][license-link]
 [![Docs][docs-badge]][docs-link]
@@ -27,7 +27,7 @@ Remember to replace 'Maia-DAO/foundry-template' with your repository's path and 
 <!-- [![Discussions][discussions-badge]][discussions-link] -->
 <!-- [![JS Library][js-library-badge]][js-library-link] -->
 
-Add a short description of the repository here.
+A treasury contract that executes governance actions. This contract holds funds and ownership of DAO contracts and executes actions from governance proposals.
 
 ## Contributing
 
@@ -37,35 +37,21 @@ If you’re interested in contributing please see our [contribution guidelines](
 
 A more detailed description of the project can be found in the [documentation](https://v2-docs.maiadao.io/).
 
-## Architecture
-
-Add a short description of the architecture here.
-
 ## Repository Structure
 
 All contracts are held within the `./src` folder.
 
-Note that helper contracts used by tests are held in the `./test/utils` subfolder within the contracts folder. Any new test helper contracts should be added there and all foundry tests are in the `./test` folder.
-
 ```ml
 src
-└── Counter - "Contract desciption"
-test
-└── Counter.t.sol
+└── Timelock - "Timelock Governance Contract"
 ```
 
-## Local deployment and Usage
+## Building
 
-To utilize the contracts and deploy to a local testnet, you can install the code in your repo with forge:
+Forl this repo and run:
 
-```markdown
-forge install https://github.com/Maia-DAO/foundry-template
-```
-
-To integrate with the contracts, the interfaces are available to use:
-
-```solidity
-
+```bash
+forge build
 ```
 
 ## License
